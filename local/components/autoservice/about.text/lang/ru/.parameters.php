@@ -1,0 +1,15 @@
+<?php
+if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
+
+$MESS['AUTOSERVICE_ABOUT_TEXT_GROUP_FEATURES'] = 'Цифры (достижения)';
+$MESS['AUTOSERVICE_ABOUT_TEXT_TITLE'] = 'Заголовок';
+$MESS['AUTOSERVICE_ABOUT_TEXT_TEXT_1'] = 'Текст (абзац 1)';
+$MESS['AUTOSERVICE_ABOUT_TEXT_TEXT_2'] = 'Текст (абзац 2)';
+$MESS['AUTOSERVICE_ABOUT_TEXT_IMAGE'] = 'Изображение';
+$MESS['AUTOSERVICE_ABOUT_TEXT_IMAGE_ALT'] = 'Alt-текст изображения';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_1_NUMBER'] = 'Цифра 1 — значение';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_1_LABEL'] = 'Цифра 1 — подпись';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_2_NUMBER'] = 'Цифра 2 — значение';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_2_LABEL'] = 'Цифра 2 — подпись';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_3_NUMBER'] = 'Цифра 3 — значение';
+$MESS['AUTOSERVICE_ABOUT_TEXT_FEATURE_3_LABEL'] = 'Цифра 3 — подпись';
