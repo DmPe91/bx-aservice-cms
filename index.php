@@ -59,7 +59,7 @@ $APPLICATION->IncludeComponent(
         "TITLE" => "Услуги",
         "DESCRIPTION" => "В нашей мастерской вы найдете решение для любых задач, от диагностики и профилактики до комплексного ремонта японского автомобиля",
         "DETAIL_URL" => "/services/#ELEMENT_CODE#/",
-		"PROPERTY_CODE" => ["PRICE", "LINK"], // ваши коды свойств
+		"PROPERTY_CODE" => ["PRICE", "LINK"], 
     ],
     false
 );
@@ -90,10 +90,10 @@ $APPLICATION->IncludeComponent(
 <?php
 $APPLICATION->IncludeComponent(
     "bitrix:news.list",
-    "steps", // имя нового шаблона
+    "steps", 
     [
-        "IBLOCK_TYPE" => "content", // или "services", где лежит инфоблок
-        "IBLOCK_ID" => "5", // ID инфоблока «Шаги работы» (проверьте в админке)
+        "IBLOCK_TYPE" => "content", 
+        "IBLOCK_ID" => "5", 
         "NEWS_COUNT" => "10",
         "SORT_BY1" => "SORT",
         "SORT_ORDER1" => "ASC",
@@ -103,8 +103,7 @@ $APPLICATION->IncludeComponent(
         "CACHE_TIME" => "3600",
         "TITLE" => "Как мы работаем",
         "SUBTITLE" => "Прозрачный процесс от заявки до выдачи автомобиля",
-        "PROPERTY_CODE" => ["STEP_TEXT"], // важно: указываем свойства
-    ],
+        "PROPERTY_CODE" => ["STEP_TEXT"], 
     false
 );
 ?>
